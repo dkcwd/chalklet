@@ -1,0 +1,29 @@
+{
+  "name": "chalklet",
+  "version": "1.0.0",
+  "description": "Generate coloured ASCII Art from text, thanks to chalk and figlet",
+  "main": "chalklet.js",
+  "scripts": {
+    "examples": "node examples.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkcwd/chalklet.git"
+  },
+  "keywords": [
+    "color",
+    "ascii",
+    "figlet",
+    "chalk"
+  ],
+  "author": "Dave Clark <dave@dkcwd.com.au> (https://dkcwd.com.au)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dkcwd/chalklet/issues"
+  },
+  "homepage": "https://github.com/dkcwd/chalklet#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "figlet": "^1.2.1"
+  }
+}
