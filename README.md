@@ -5,7 +5,7 @@ Generate coloured ASCII Art from text...
 Thanks to the people behind `chalk` and `figlet`, this library wraps
 the work they did.
 
-![Thanks](https://raw.githubusercontent.com/dkcwd/chalklet/master/thanks.png)
+![Thanks](thanks.png)
 
 Chalk: https://github.com/chalk/chalk#readme
 
