@@ -4,7 +4,9 @@
   "description": "Generate coloured ASCII Art from text, thanks to chalk and figlet",
   "main": "chalklet.js",
   "scripts": {
-    "examples": "node examples.js"
+    "examples": "node examples.js",
+    "test": "nyc mocha && nyc report --reporter=html",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
   },
   "repository": {
     "type": "git",
@@ -25,5 +27,10 @@
   "dependencies": {
     "chalk": "^2.4.1",
     "figlet": "^1.2.1"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.2",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0"
   }
 }

@@ -55,7 +55,7 @@ const chalklet = {
         .bold(value);
     }
 
-    return chalk.bold(value);
+    throw Error('Invalid color option type specified');
   },
 };
 

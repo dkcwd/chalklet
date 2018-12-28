@@ -1,5 +1,7 @@
 # Chalklet
 
+[![Coverage Status](https://coveralls.io/repos/github/dkcwd/chalklet/badge.svg?branch=master)](https://coveralls.io/github/dkcwd/chalklet?branch=master)
+
 Generate coloured ASCII Art from text...
 
 Thanks to the people behind `chalk` and `figlet`, this library wraps
